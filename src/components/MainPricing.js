@@ -4,7 +4,13 @@ import PricingContainer from './PricingContainer';
 
 const MainPricing = () => (
     <>
-        <PricingDescription />
+        <PricingDescription
+            title = "Geek Pricing"
+            quoteOne = "Quickly build an effective pricing" 
+            quoteTwo ="table for your potential customers with this" 
+            quoteThree = "Bootstrap example. It’s built with default"
+            quoteFour ="Bootstrap components and utilities with little customization."
+        />
         <PricingContainer />
     </>
 );
