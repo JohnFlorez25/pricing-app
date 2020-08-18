@@ -1,9 +1,9 @@
 import React from 'react';
-//Stateless
+import PricingDescription from './PricingDescription';
+
 const MainPricing = () => (
     <>
-        <h4> Main Principal</h4>
-        <hr/>
+        <PricingDescription />
     </>
 );
 
